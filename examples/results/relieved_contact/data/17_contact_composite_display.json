@@ -1,0 +1,633 @@
+{
+  "view": "engineering",
+  "actual_original_pressure_modified": false,
+  "new_FE_solves": 0,
+  "display_pressure_is_raw": false,
+  "physical_validation_added": false,
+  "axis_units": "m",
+  "pressure_units": "Pa",
+  "display_grid_shape": [
+    161,
+    641
+  ],
+  "colour_scale": "independent",
+  "recovery": {
+    "spatial_recovery": [
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 0,
+        "tooth_offset": -2
+      },
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 0,
+        "tooth_offset": -1
+      },
+      {
+        "original_force_n": 2495.960508090111,
+        "recovered_force_n": 2495.960508090111,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 1970142982.084498,
+        "recovered_peak_pa": 1036485851.9103967,
+        "smoothing_length_m": 5e-05,
+        "sigma_rows_columns": [
+          1.0,
+          0.08431372549019608
+        ],
+        "force_centroid_shift_m": [
+          0.0,
+          3.552713678800501e-19
+        ],
+        "original_pressure_modified": false,
+        "recovered_field_is_new_contact_solution": false,
+        "phase_index": 0,
+        "tooth_offset": 0
+      },
+      {
+        "original_force_n": 358.83703290056695,
+        "recovered_force_n": 358.837032900567,
+        "relative_force_error": 2.220446049250313e-16,
+        "raw_peak_pa": 1450745704.3139222,
+        "recovered_peak_pa": 931621450.1419919,
+        "smoothing_length_m": 5e-05,
+        "sigma_rows_columns": [
+          1.0,
+          0.08431372549019608
+        ],
+        "force_centroid_shift_m": [
+          -2.1068418327770413e-18,
+          0.0
+        ],
+        "original_pressure_modified": false,
+        "recovered_field_is_new_contact_solution": false,
+        "phase_index": 0,
+        "tooth_offset": 1
+      },
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 0,
+        "tooth_offset": 2
+      },
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 16,
+        "tooth_offset": -2
+      },
+      {
+        "original_force_n": 19.175392629584557,
+        "recovered_force_n": 19.17539262958456,
+        "relative_force_error": 2.220446049250313e-16,
+        "raw_peak_pa": 545059967.8819156,
+        "recovered_peak_pa": 223178580.38219556,
+        "smoothing_length_m": 5e-05,
+        "sigma_rows_columns": [
+          1.0,
+          0.08431372549019608
+        ],
+        "force_centroid_shift_m": [
+          2.1068418327770413e-18,
+          -3.552713678800501e-19
+        ],
+        "original_pressure_modified": false,
+        "recovered_field_is_new_contact_solution": false,
+        "phase_index": 16,
+        "tooth_offset": -1
+      },
+      {
+        "original_force_n": 2750.312987219239,
+        "recovered_force_n": 2750.312987219239,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 1889254958.2256975,
+        "recovered_peak_pa": 986069043.6675742,
+        "smoothing_length_m": 5e-05,
+        "sigma_rows_columns": [
+          1.0,
+          0.08431372549019608
+        ],
+        "force_centroid_shift_m": [
+          -2.1068418327770413e-18,
+          0.0
+        ],
+        "original_pressure_modified": false,
+        "recovered_field_is_new_contact_solution": false,
+        "phase_index": 16,
+        "tooth_offset": 0
+      },
+      {
+        "original_force_n": 83.99953078756695,
+        "recovered_force_n": 83.99953078756697,
+        "relative_force_error": 2.220446049250313e-16,
+        "raw_peak_pa": 995134399.0763975,
+        "recovered_peak_pa": 452285056.7594662,
+        "smoothing_length_m": 5e-05,
+        "sigma_rows_columns": [
+          1.0,
+          0.08431372549019608
+        ],
+        "force_centroid_shift_m": [
+          0.0,
+          -3.552713678800501e-19
+        ],
+        "original_pressure_modified": false,
+        "recovered_field_is_new_contact_solution": false,
+        "phase_index": 16,
+        "tooth_offset": 1
+      },
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 16,
+        "tooth_offset": 2
+      },
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 32,
+        "tooth_offset": -2
+      },
+      {
+        "original_force_n": 336.631585614273,
+        "recovered_force_n": 336.631585614273,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 1469793706.764626,
+        "recovered_peak_pa": 775952267.3225398,
+        "smoothing_length_m": 5e-05,
+        "sigma_rows_columns": [
+          1.0,
+          0.08431372549019608
+        ],
+        "force_centroid_shift_m": [
+          0.0,
+          -7.105427357601002e-19
+        ],
+        "original_pressure_modified": false,
+        "recovered_field_is_new_contact_solution": false,
+        "phase_index": 32,
+        "tooth_offset": -1
+      },
+      {
+        "original_force_n": 2512.484655744752,
+        "recovered_force_n": 2512.484655744752,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 2000874274.3568087,
+        "recovered_peak_pa": 983553979.3999525,
+        "smoothing_length_m": 5e-05,
+        "sigma_rows_columns": [
+          1.0,
+          0.08431372549019608
+        ],
+        "force_centroid_shift_m": [
+          4.2136836655540825e-18,
+          7.105427357601002e-19
+        ],
+        "original_pressure_modified": false,
+        "recovered_field_is_new_contact_solution": false,
+        "phase_index": 32,
+        "tooth_offset": 0
+      },
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 32,
+        "tooth_offset": 1
+      },
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 32,
+        "tooth_offset": 2
+      },
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 48,
+        "tooth_offset": -2
+      },
+      {
+        "original_force_n": 710.2582821582757,
+        "recovered_force_n": 710.2582821582758,
+        "relative_force_error": 2.220446049250313e-16,
+        "raw_peak_pa": 916732671.3610934,
+        "recovered_peak_pa": 877492319.8002734,
+        "smoothing_length_m": 5e-05,
+        "sigma_rows_columns": [
+          1.0,
+          0.08431372549019608
+        ],
+        "force_centroid_shift_m": [
+          2.1068418327770413e-18,
+          -3.552713678800501e-19
+        ],
+        "original_pressure_modified": false,
+        "recovered_field_is_new_contact_solution": false,
+        "phase_index": 48,
+        "tooth_offset": -1
+      },
+      {
+        "original_force_n": 2138.1237295220326,
+        "recovered_force_n": 2138.1237295220326,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 1222500455.2633364,
+        "recovered_peak_pa": 920907425.6389565,
+        "smoothing_length_m": 5e-05,
+        "sigma_rows_columns": [
+          1.0,
+          0.08431372549019608
+        ],
+        "force_centroid_shift_m": [
+          -2.1068418327770413e-18,
+          0.0
+        ],
+        "original_pressure_modified": false,
+        "recovered_field_is_new_contact_solution": false,
+        "phase_index": 48,
+        "tooth_offset": 0
+      },
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 48,
+        "tooth_offset": 1
+      },
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 64,
+        "tooth_offset": -2
+      },
+      {
+        "original_force_n": 1095.794947174815,
+        "recovered_force_n": 1095.794947174815,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 1037490105.5614624,
+        "recovered_peak_pa": 991823656.7839041,
+        "smoothing_length_m": 5e-05,
+        "sigma_rows_columns": [
+          1.0,
+          0.08431372549019608
+        ],
+        "force_centroid_shift_m": [
+          -2.1068418327770413e-18,
+          0.0
+        ],
+        "original_pressure_modified": false,
+        "recovered_field_is_new_contact_solution": false,
+        "phase_index": 64,
+        "tooth_offset": -1
+      },
+      {
+        "original_force_n": 1752.629689413362,
+        "recovered_force_n": 1752.629689413362,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 1069060798.1248924,
+        "recovered_peak_pa": 975554372.9093163,
+        "smoothing_length_m": 5e-05,
+        "sigma_rows_columns": [
+          1.0,
+          0.08431372549019608
+        ],
+        "force_centroid_shift_m": [
+          -2.1068418327770413e-18,
+          -3.552713678800501e-19
+        ],
+        "original_pressure_modified": false,
+        "recovered_field_is_new_contact_solution": false,
+        "phase_index": 64,
+        "tooth_offset": 0
+      },
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 64,
+        "tooth_offset": 1
+      },
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 80,
+        "tooth_offset": -2
+      },
+      {
+        "original_force_n": 1475.9954404722125,
+        "recovered_force_n": 1475.9954404722125,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 2214849207.5201426,
+        "recovered_peak_pa": 1077129349.362723,
+        "smoothing_length_m": 5e-05,
+        "sigma_rows_columns": [
+          1.0,
+          0.08431372549019608
+        ],
+        "force_centroid_shift_m": [
+          -2.1068418327770413e-18,
+          0.0
+        ],
+        "original_pressure_modified": false,
+        "recovered_field_is_new_contact_solution": false,
+        "phase_index": 80,
+        "tooth_offset": -1
+      },
+      {
+        "original_force_n": 1373.7887753789034,
+        "recovered_force_n": 1373.7887753789037,
+        "relative_force_error": 2.220446049250313e-16,
+        "raw_peak_pa": 1135096921.4691434,
+        "recovered_peak_pa": 1022160158.7542089,
+        "smoothing_length_m": 5e-05,
+        "sigma_rows_columns": [
+          1.0,
+          0.08431372549019608
+        ],
+        "force_centroid_shift_m": [
+          0.0,
+          3.552713678800501e-19
+        ],
+        "original_pressure_modified": false,
+        "recovered_field_is_new_contact_solution": false,
+        "phase_index": 80,
+        "tooth_offset": 0
+      },
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 80,
+        "tooth_offset": 1
+      },
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 96,
+        "tooth_offset": -2
+      },
+      {
+        "original_force_n": 1841.0903658360398,
+        "recovered_force_n": 1841.09036583604,
+        "relative_force_error": 2.220446049250313e-16,
+        "raw_peak_pa": 2189274541.537334,
+        "recovered_peak_pa": 1089224859.9420302,
+        "smoothing_length_m": 5e-05,
+        "sigma_rows_columns": [
+          1.0,
+          0.08431372549019608
+        ],
+        "force_centroid_shift_m": [
+          -2.1068418327770413e-18,
+          3.552713678800501e-19
+        ],
+        "original_pressure_modified": false,
+        "recovered_field_is_new_contact_solution": false,
+        "phase_index": 96,
+        "tooth_offset": -1
+      },
+      {
+        "original_force_n": 1010.8718427116019,
+        "recovered_force_n": 1010.8718427116021,
+        "relative_force_error": 2.220446049250313e-16,
+        "raw_peak_pa": 1604919215.9568782,
+        "recovered_peak_pa": 1137878629.323077,
+        "smoothing_length_m": 5e-05,
+        "sigma_rows_columns": [
+          1.0,
+          0.08431372549019608
+        ],
+        "force_centroid_shift_m": [
+          0.0,
+          -3.552713678800501e-19
+        ],
+        "original_pressure_modified": false,
+        "recovered_field_is_new_contact_solution": false,
+        "phase_index": 96,
+        "tooth_offset": 0
+      },
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 96,
+        "tooth_offset": 1
+      },
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 112,
+        "tooth_offset": -2
+      },
+      {
+        "original_force_n": 2181.8161927582455,
+        "recovered_force_n": 2181.8161927582455,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 1966486501.9718318,
+        "recovered_peak_pa": 1066456053.6027312,
+        "smoothing_length_m": 5e-05,
+        "sigma_rows_columns": [
+          1.0,
+          0.08431372549019608
+        ],
+        "force_centroid_shift_m": [
+          -2.1068418327770413e-18,
+          0.0
+        ],
+        "original_pressure_modified": false,
+        "recovered_field_is_new_contact_solution": false,
+        "phase_index": 112,
+        "tooth_offset": -1
+      },
+      {
+        "original_force_n": 672.2245874317778,
+        "recovered_force_n": 672.2245874317778,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 1816163876.7264369,
+        "recovered_peak_pa": 1022145146.5488052,
+        "smoothing_length_m": 5e-05,
+        "sigma_rows_columns": [
+          1.0,
+          0.08431372549019608
+        ],
+        "force_centroid_shift_m": [
+          0.0,
+          0.0
+        ],
+        "original_pressure_modified": false,
+        "recovered_field_is_new_contact_solution": false,
+        "phase_index": 112,
+        "tooth_offset": 0
+      },
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 112,
+        "tooth_offset": 1
+      },
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 128,
+        "tooth_offset": -2
+      },
+      {
+        "original_force_n": 2496.7284754877014,
+        "recovered_force_n": 2496.728475487702,
+        "relative_force_error": 2.220446049250313e-16,
+        "raw_peak_pa": 1819115417.7080615,
+        "recovered_peak_pa": 969438780.762287,
+        "smoothing_length_m": 5e-05,
+        "sigma_rows_columns": [
+          1.0,
+          0.08431372549019608
+        ],
+        "force_centroid_shift_m": [
+          2.1068418327770413e-18,
+          3.552713678800501e-19
+        ],
+        "original_pressure_modified": false,
+        "recovered_field_is_new_contact_solution": false,
+        "phase_index": 128,
+        "tooth_offset": -1
+      },
+      {
+        "original_force_n": 358.0696738228434,
+        "recovered_force_n": 358.0696738228434,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 1431400810.420323,
+        "recovered_peak_pa": 915702818.5969248,
+        "smoothing_length_m": 5e-05,
+        "sigma_rows_columns": [
+          1.0,
+          0.08431372549019608
+        ],
+        "force_centroid_shift_m": [
+          4.2136836655540825e-18,
+          3.552713678800501e-19
+        ],
+        "original_pressure_modified": false,
+        "recovered_field_is_new_contact_solution": false,
+        "phase_index": 128,
+        "tooth_offset": 0
+      },
+      {
+        "original_force_n": 0.0,
+        "recovered_force_n": 0.0,
+        "relative_force_error": 0.0,
+        "raw_peak_pa": 0.0,
+        "recovered_peak_pa": 0.0,
+        "phase_index": 128,
+        "tooth_offset": 1
+      }
+    ],
+    "temporal_recovery": {
+      "solved_phase_count": 9,
+      "display_phase_count": 129,
+      "connected_same_tooth_segments": 16,
+      "interpolated_field_count": 240,
+      "new_FE_solves": 0,
+      "pressure_geometry_interpolation": "接触中心随相位平移，端点标量场线性凸组合",
+      "continuous_phase_extremum_certified": false,
+      "interpolated_equilibrium_verified": false
+    },
+    "smoothing_length_m": 5e-05,
+    "original_source_fields_unchanged": true,
+    "display_is_postprocessed": true,
+    "interpretation": "源面元合力守恒；相位插值包络仅供工程展示，不是新增FE平衡解或精度验证"
+  },
+  "recovery_source_sha256": "af6f355ccbaf3c470540d1cf786a6ff982e78bc636422e7e7b81bd60a3d5ab94",
+  "FE_display_pressure_is_raw": false,
+  "FE_cycle_is_phase_interpolated": true,
+  "panels": [
+    {
+      "method": "local_halfspace",
+      "kind": "instantaneous",
+      "raw_peak_pressure_pa": 1079527467.4854345,
+      "display_peak_pressure_pa": 1078390735.8173866,
+      "colour_limit_pa": 1100000000.0,
+      "solved_phase_count": 1,
+      "postprocessed": false
+    },
+    {
+      "method": "local_halfspace",
+      "kind": "sampled_cycle_maximum",
+      "raw_peak_pressure_pa": 1083567197.7552304,
+      "display_peak_pressure_pa": 1081623581.6889791,
+      "colour_limit_pa": 1100000000.0,
+      "solved_phase_count": 129,
+      "postprocessed": false
+    },
+    {
+      "method": "full_gear_fe",
+      "kind": "instantaneous",
+      "raw_peak_pressure_pa": 1069060798.1248924,
+      "display_peak_pressure_pa": 974738383.5969944,
+      "colour_limit_pa": 1000000000.0,
+      "solved_phase_count": 1,
+      "postprocessed": true
+    },
+    {
+      "method": "full_gear_fe",
+      "kind": "sampled_cycle_maximum",
+      "raw_peak_pressure_pa": 2214849207.5201426,
+      "display_peak_pressure_pa": 1117767259.7697754,
+      "colour_limit_pa": 1200000000.0,
+      "solved_phase_count": 9,
+      "postprocessed": true
+    }
+  ]
+}

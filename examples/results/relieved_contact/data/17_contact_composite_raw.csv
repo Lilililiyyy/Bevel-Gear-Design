@@ -1,0 +1,5 @@
+﻿method,kind,raw_peak_pressure_pa,display_peak_pressure_pa,colour_limit_pa,solved_phase_count,postprocessed
+local_halfspace,instantaneous,1079527467.4854345,1078390735.8173866,1100000000.0,1,False
+local_halfspace,sampled_cycle_maximum,1083567197.7552304,1081623581.6889791,1100000000.0,129,False
+full_gear_fe,instantaneous,1069060798.1248924,1042855003.6306665,1100000000.0,1,False
+full_gear_fe,sampled_cycle_maximum,2214849207.5201426,2124746038.3810616,2300000000.0,9,False

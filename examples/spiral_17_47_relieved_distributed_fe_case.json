@@ -1,0 +1,71 @@
+{
+  "schema": "bevel_distributed_fe_case_v1",
+  "name": "17/47双轮实际齿顶修缘：整轮分布牵引FE",
+  "description": "双轮30μm真实法向修缘；三维整轮结构柔度、实际曲面四点Gauss压力小片；原P0压力与守恒中心P1显示分别定义。",
+  "base_case": "spiral_17_47_relieved_contact_design.json",
+  "analysis": {
+    "driver_angles_rad": [
+      -0.18479956785822313,
+      -0.16169962187594525,
+      -0.13859967589366734,
+      -0.11549972991138946,
+      -0.09239978392911156,
+      -0.06929983794683367,
+      -0.04619989196455579,
+      -0.02309994598227788,
+      0.0,
+      0.02309994598227788,
+      0.04619989196455579,
+      0.06929983794683367,
+      0.09239978392911155,
+      0.11549972991138943,
+      0.13859967589366737,
+      0.16169962187594525,
+      0.18479956785822313
+    ],
+    "tooth_offsets": [
+      -2,
+      -1,
+      0,
+      1,
+      2
+    ],
+    "grid_shape": [
+      169,
+      55
+    ],
+    "spacing_m": [
+      0.00015,
+      7.5e-05
+    ],
+    "cover_complete_working_flank": false,
+    "follower_correction_rad": 1e-10,
+    "check_cell_corners": true,
+    "ray_backend": "batch"
+  },
+  "mesh": {
+    "element_size_m": 0.004,
+    "contact_refined_size_m": 5e-05,
+    "refinement_radius_m": 0.0012,
+    "maximum_nodes": 700000,
+    "refinement_phase_intervals": 4,
+    "refinement_half_widths_m": [
+      0.0125,
+      0.002
+    ],
+    "track_spacing_m": 0.0001,
+    "sample_spacing_m": 0.0005
+  },
+  "solver": {
+    "maximum_outer_iterations": 5,
+    "maximum_geometry_error_m": 1e-09,
+    "maximum_gauss_penetration_m": 2e-07,
+    "require_interior_contact": true,
+    "mapping_tolerance_m": 0.0002,
+    "maximum_active_mapping_error_m": 2e-06,
+    "maximum_working_set": 2048
+  },
+  "acceptance": {
+    "maximum_pinion_torque_relative_residual": 0.02
+  }
+}

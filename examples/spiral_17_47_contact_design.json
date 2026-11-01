@@ -1,0 +1,109 @@
+{
+  "schema": "bevel_contact_manufacturing_case_v1",
+  "name": "17/47弧齿锥齿轮接触性能案例",
+  "kind": "spiral",
+  "description": "实际双面刀盘展成接触案例：大轮刀盘146.304mm、点宽2.36mm；64Nm幅值，输入相位0.05rad，固定孔壁。几何及压力独立于原标准强度基准，未认证完整周期。",
+  "manufacturing": {
+    "pinion": {
+      "request": {
+        "machine": {
+          "reference_cone_distance_m": 0.0999599919967984,
+          "dedendum_m": 0.00272,
+          "vertical_setting_m": 0.0,
+          "axial_setting_m": 0.0,
+          "horizontal_setting_m": 0.0,
+          "machine_root_angle_rad": 0.324107642095347,
+          "pitch_cone_angle_rad": 0.3470616035394905,
+          "roll_ratio": 2.939,
+          "cradle_horizontal_m": 0.041424077620409776,
+          "cradle_vertical_m": 0.06253632812449357,
+          "direction": -1,
+          "cutter_diameter_m": 0.1524,
+          "blade_point_width_m": 0.00164,
+          "inner_pressure_angle_rad": 0.37088246604879505,
+          "outer_pressure_angle_rad": 0.3272492347489368,
+          "inner_tip_radius_m": 0.001004,
+          "outer_tip_radius_m": 0.000944
+        },
+        "tooth_count": 17,
+        "module_m": 0.004,
+        "face_width_m": 0.029988,
+        "addendum_m": 0.004844,
+        "tip_cone_angle_rad": 0.40046579687009887
+      },
+      "blank": {
+        "bore_diameter_m": 0.012,
+        "support_depth_factor": 2.0,
+        "outer_tip_trim_m": 1e-05,
+        "boolean_tolerance_m": 1e-08,
+        "sewing_tolerance_m": 1e-09,
+        "root_height_policy": "compatible",
+        "partition_relative_tolerance": 0.0001,
+        "periodic_relative_tolerance": 0.001
+      }
+    },
+    "wheel": {
+      "request": {
+        "machine": {
+          "reference_cone_distance_m": 0.09995999199679839,
+          "dedendum_m": 0.005484,
+          "vertical_setting_m": 0.0,
+          "axial_setting_m": 0.0,
+          "horizontal_setting_m": 0.0,
+          "machine_root_angle_rad": 1.1703305299247977,
+          "pitch_cone_angle_rad": 1.223734723255406,
+          "roll_ratio": 1.062,
+          "cradle_horizontal_m": 0.0431025662266788,
+          "cradle_vertical_m": 0.0599906802313317,
+          "direction": 1,
+          "cutter_diameter_m": 0.146304,
+          "blade_point_width_m": 0.0023599999999999997,
+          "inner_pressure_angle_rad": 0.37088246604879505,
+          "outer_pressure_angle_rad": 0.327249237152756,
+          "inner_tip_radius_m": 0.00114,
+          "outer_tip_radius_m": 0.001088
+        },
+        "tooth_count": 47,
+        "module_m": 0.004,
+        "face_width_m": 0.029988,
+        "addendum_m": 0.0020800000000000003,
+        "tip_cone_angle_rad": 1.2466886846995495
+      },
+      "blank": {
+        "bore_diameter_m": 0.032,
+        "support_depth_factor": 2.0,
+        "outer_tip_trim_m": 1e-05,
+        "boolean_tolerance_m": 1e-08,
+        "sewing_tolerance_m": 1e-09,
+        "root_height_policy": "compatible",
+        "partition_relative_tolerance": 0.0001,
+        "periodic_relative_tolerance": 0.001
+      }
+    }
+  },
+  "materials": {
+    "pinion": {
+      "young_modulus_pa": 210000000000.0,
+      "poisson_ratio": 0.3,
+      "density_kg_m3": 7800,
+      "heat_treatment": "case_hardened",
+      "contact_stress_number_pa": 1500000000.0
+    },
+    "wheel": {
+      "young_modulus_pa": 210000000000.0,
+      "poisson_ratio": 0.3,
+      "density_kg_m3": 7800,
+      "heat_treatment": "case_hardened",
+      "contact_stress_number_pa": 1500000000.0
+    }
+  },
+  "load": {
+    "pinion_torque_n_m": 64.0,
+    "pinion_speed_rpm": 1500.0,
+    "ltca_torque_sign": -1
+  },
+  "cad_sampling": {
+    "width_count": 25,
+    "profile_count": 25
+  }
+}

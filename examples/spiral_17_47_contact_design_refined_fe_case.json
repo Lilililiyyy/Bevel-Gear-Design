@@ -1,0 +1,43 @@
+{
+  "schema": "bevel_refined_fe_contact_case_v1",
+  "name": "17/47弧齿锥齿轮整轮FE接触性能案例",
+  "description": "真实整轮FE与多齿结构耦合；75µm局部控制，压力精度与几何覆盖审核分开记录。",
+  "base_case": "spiral_17_47_contact_design.json",
+  "analysis": {
+    "driver_angles_rad": [
+      0.05
+    ],
+    "tooth_offsets": [
+      -1,
+      0,
+      1
+    ],
+    "pinion_torque_nm": -64.0
+  },
+  "finite_element": {
+    "element_size_m": 0.004,
+    "contact_refined_size_m": 7.5e-05,
+    "refinement_radius_m": 0.0012,
+    "maximum_nodes": 500000
+  },
+  "refinement": {
+    "half_widths_m": [
+      0.0125,
+      0.002
+    ],
+    "track_spacing_m": 7.5e-05,
+    "sample_spacing_m": 0.0005
+  },
+  "contact": {
+    "maximum_distance_m": 0.0002,
+    "maximum_normal_angle_rad": 0.3,
+    "matching_tolerance_m": 8e-07,
+    "mesh_phase_tolerance_m": 1e-10,
+    "maximum_mesh_phase_iterations": 15,
+    "maximum_candidates": 50000,
+    "maximum_loaded_angle_rad": 0.005,
+    "maximum_pinion_torque_relative_residual": 0.02,
+    "maximum_working_set": 2048
+  },
+  "plot_tooth_offset": -1
+}

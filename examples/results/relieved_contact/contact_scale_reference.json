@@ -1,0 +1,51 @@
+{
+  "schema": "instantaneous_contact_scale_reference_v1",
+  "case": {
+    "tooth_counts": [
+      17,
+      47
+    ],
+    "normal_tip_relief_m": 3e-05,
+    "tip_relief_start_profile_fraction": 0.65,
+    "driving_angle_rad": 0.0,
+    "physical_tooth_offset": 0
+  },
+  "materials": {
+    "young_modulus_pa_each_body": 210000000000.0,
+    "poisson_ratio_each_body": 0.3,
+    "effective_modulus_pa": 115384615384.61539
+  },
+  "relative_unloaded_gap_curvatures_1_m": [
+    0.9995203996975555,
+    88.30551265999705
+  ],
+  "local_halfspace_result": {
+    "force_plane_n": 1616.3502421371477,
+    "reference_plane_area_m2": 2.5024999999999998e-06,
+    "actual_first_surface_area_m2": 2.5035583604273592e-06,
+    "peak_pressure_pa": 1079527467.4854345,
+    "mean_reference_plane_pressure_pa": 645894202.6522069,
+    "full_actual_pinion_working_flank_area_m2": 0.00022777664721518478,
+    "actual_positive_area_fraction_of_full_flank": 0.010991286380917713
+  },
+  "independent_local_Hertz_scale": {
+    "force_n": 1616.3502421371477,
+    "minor_full_width_m": 0.0004146983015266933,
+    "major_full_length_m": 0.007013301175418945,
+    "contact_plane_area_m2": 2.2842552272018494e-06,
+    "peak_pressure_pa": 1061407383.1739455
+  },
+  "halfspace_vs_local_Hertz": {
+    "peak_relative_difference": 0.017071752654766792,
+    "reference_plane_area_relative_difference": 0.09554307688528052
+  },
+  "local_quadratic_approximation_limit": {
+    "ellipse_boundary_maximum_gap_error_m": 5.1920881595290675e-06,
+    "Hertz_normal_approach_m": 8.04363949547107e-06,
+    "boundary_gap_error_relative_to_Hertz_approach": 0.6454899131733148
+  },
+  "scope": "单齿、单相位瞬时压力区；独立Hertz仅校核数量级；不是全周期累计印迹、有限齿体全场收敛或试验验证",
+  "pressure_or_area_fitted_for_Hertz": false,
+  "full_field_Hertz_validation_claimed": false,
+  "finite_element_convergence_claimed": false
+}

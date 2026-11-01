@@ -1,0 +1,40 @@
+{
+  "schema": "bevel_halfspace_case_summary_v1",
+  "gear_teeth": [17, 47],
+  "pinion_torque_nm": -64.0,
+  "normal_tip_relief_m": 0.00003,
+  "instantaneous": {
+    "source_state_sha256": "4294f8c1bae8f4634fd05093d82f4c9e11a097bf4a9d16a6eb2592dc1b259bc6",
+    "driver_angle_rad": 0.0,
+    "tooth_offset": 0,
+    "maximum_pressure_pa": 1079527467.4854345,
+    "original_P0_plane_area_m2": 0.0000025025,
+    "original_plane_force_n": 1616.3502421371477
+  },
+  "sampled_cycle": {
+    "state_count": 129,
+    "interval_count": 128,
+    "maximum_pressure_pa": 1083567197.7552304,
+    "P1_support_projected_area_m2": 0.00004571597620500434,
+    "whole_flank_projected_area_m2": 0.00016614350157114066,
+    "whole_flank_3D_area_m2": 0.00022777642966684977,
+    "support_fraction_of_projected_flank": 0.27515958055951595,
+    "maximum_is_simultaneous_pressure": false,
+    "continuous_phase_maximum_certified": false
+  },
+  "validation_scope": {
+    "equations_and_nonnegative_contact_checked": true,
+    "whole_material_engineering_domain_checked": true,
+    "unknown_display_area_m2": 0.0,
+    "64_to_128_intervals_envelope_relative_L2": 0.014204004397788647,
+    "strict_all_point_5percent_phase_target_passed": false,
+    "strict_continuous_CAD_error_bound_proved": false,
+    "experimental_pressure_validated": false,
+    "FE_pressure_validation_included": false
+  },
+  "definitions": {
+    "pressure": "原求解P0压力与原中心值守恒P1显示分别保留，不平滑原值。",
+    "area": "原P0面积在接触参考平面积分；P1支撑与全齿面面积在材料子午投影中计算，两者不可互换。",
+    "cycle": "将已求解相位和齿对折回同一参考材料齿面后逐点取最大值；不可积分为瞬时合力。"
+  }
+}

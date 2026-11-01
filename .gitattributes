@@ -1,0 +1,18 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.toml text eol=lf
+*.png binary
+*.pdf binary
+*.step binary
+*.brep binary
+*.vtp binary
+*.npz binary
+*.gz binary
+# 案例输入、SI结果与状态摘要保持原字节，避免换行转换改变验证哈希。
+examples/*.json -text whitespace=cr-at-eol
+examples/results/** -text whitespace=cr-at-eol
+# Matplotlib生成的SVG路径换行可含行尾空格；保留原图字节、文本差异与已验证哈希。
+*.svg text eol=lf whitespace=-blank-at-eol

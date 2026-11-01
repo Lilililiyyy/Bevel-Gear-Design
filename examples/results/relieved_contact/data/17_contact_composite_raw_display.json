@@ -1,0 +1,52 @@
+{
+  "view": "raw",
+  "actual_original_pressure_modified": false,
+  "new_FE_solves": 0,
+  "display_pressure_is_raw": true,
+  "physical_validation_added": false,
+  "axis_units": "m",
+  "pressure_units": "Pa",
+  "display_grid_shape": [
+    161,
+    641
+  ],
+  "colour_scale": "independent",
+  "panels": [
+    {
+      "method": "local_halfspace",
+      "kind": "instantaneous",
+      "raw_peak_pressure_pa": 1079527467.4854345,
+      "display_peak_pressure_pa": 1078390735.8173866,
+      "colour_limit_pa": 1100000000.0,
+      "solved_phase_count": 1,
+      "postprocessed": false
+    },
+    {
+      "method": "local_halfspace",
+      "kind": "sampled_cycle_maximum",
+      "raw_peak_pressure_pa": 1083567197.7552304,
+      "display_peak_pressure_pa": 1081623581.6889791,
+      "colour_limit_pa": 1100000000.0,
+      "solved_phase_count": 129,
+      "postprocessed": false
+    },
+    {
+      "method": "full_gear_fe",
+      "kind": "instantaneous",
+      "raw_peak_pressure_pa": 1069060798.1248924,
+      "display_peak_pressure_pa": 1042855003.6306665,
+      "colour_limit_pa": 1100000000.0,
+      "solved_phase_count": 1,
+      "postprocessed": false
+    },
+    {
+      "method": "full_gear_fe",
+      "kind": "sampled_cycle_maximum",
+      "raw_peak_pressure_pa": 2214849207.5201426,
+      "display_peak_pressure_pa": 2124746038.3810616,
+      "colour_limit_pa": 2300000000.0,
+      "solved_phase_count": 9,
+      "postprocessed": false
+    }
+  ]
+}

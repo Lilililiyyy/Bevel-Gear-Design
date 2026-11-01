@@ -1,0 +1,114 @@
+{
+  "name": "AGMA常幅疲劳合成案例",
+  "description": "零偏置20/40齿设计；显式合成钢材与三点S-N参数，仅用于复现计算流程，不代表推荐材料牌号或认证结果。",
+  "geometry": {
+    "pinion_teeth": 20,
+    "wheel_teeth": 40,
+    "wheel_outer_pitch_diameter_m": 0.16,
+    "face_width_m": 0.025,
+    "shaft_angle_rad": 1.5707963267948966,
+    "spiral_angle_rad": 0.6108652381980153,
+    "pressure_angle_rad": 0.3490658503988659,
+    "addendum_coefficient": 1.0,
+    "dedendum_coefficient": 1.25,
+    "pinion_profile_shift_coefficient": 0.2,
+    "tooth_thickness_modification_coefficient": 0.0,
+    "backlash_m": 0,
+    "cutter_radius_m": 0.1,
+    "depth_taper": "standard",
+    "tooth_trace": "auto",
+    "offset_m": 0.0,
+    "root_fillet_radius_pinion_m": null,
+    "root_fillet_radius_wheel_m": null
+  },
+  "load": {
+    "pinion_torque_n_m": 100.0,
+    "pinion_speed_rpm": 1500.0,
+    "duration_h": 10000.0,
+    "flank": "drive",
+    "spiral_hand": 1
+  },
+  "materials": {
+    "pinion": {
+      "category": "case_hardened",
+      "hardness_hb": 600.0,
+      "yield_strength_pa": 800000000.0,
+      "contact_limit_pa": 1500000000.0,
+      "bending_limit_pa": 450000000.0,
+      "ra_m": 4e-07,
+      "rz_m": 3e-06,
+      "contact_curve": {
+        "cycles": [
+          100000.0,
+          50000000.0,
+          10000000000.0
+        ],
+        "stresses_pa": [
+          2000000000.0,
+          1500000000.0,
+          1200000000.0
+        ]
+      },
+      "bending_curve": {
+        "cycles": [
+          10000.0,
+          3000000.0,
+          10000000000.0
+        ],
+        "stresses_pa": [
+          700000000.0,
+          450000000.0,
+          360000000.0
+        ]
+      }
+    },
+    "wheel": {
+      "category": "case_hardened",
+      "hardness_hb": 600.0,
+      "yield_strength_pa": 800000000.0,
+      "contact_limit_pa": 1500000000.0,
+      "bending_limit_pa": 450000000.0,
+      "ra_m": 4e-07,
+      "rz_m": 3e-06,
+      "contact_curve": {
+        "cycles": [
+          100000.0,
+          50000000.0,
+          10000000000.0
+        ],
+        "stresses_pa": [
+          2000000000.0,
+          1500000000.0,
+          1200000000.0
+        ]
+      },
+      "bending_curve": {
+        "cycles": [
+          10000.0,
+          3000000.0,
+          10000000000.0
+        ],
+        "stresses_pa": [
+          700000000.0,
+          450000000.0,
+          360000000.0
+        ]
+      }
+    }
+  },
+  "rating": {
+    "pinion_cutter_tip_radius_m": 0.0008,
+    "wheel_cutter_tip_radius_m": 0.0008,
+    "application_factor": 1.25,
+    "quality_grade": 8,
+    "mounting": 2,
+    "crowned": true,
+    "oil_temperature_c": 80.0,
+    "curve_safety_factor": 1.0,
+    "damage_interpolation": "loglog",
+    "hardness_ratio_policy": "floating",
+    "required_contact_safety": 1.0,
+    "required_bending_safety": 1.3
+  },
+  "standard": "AGMA2003C10"
+}

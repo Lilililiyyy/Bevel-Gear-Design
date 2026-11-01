@@ -1,0 +1,47 @@
+{
+  "schema": "bevel_contact_comparison_case_v1",
+  "gear_teeth": [
+    17,
+    47
+  ],
+  "instantaneous_phase_rad": 0.0,
+  "instantaneous_tooth_offset": 0,
+  "signed_pinion_torque_nm": -64.0,
+  "actual_FE_states": 9,
+  "actual_halfspace_states": 129,
+  "phase_interpolation_performed": false,
+  "FE_normal_point_gap_engineering_criterion_m": 1e-06,
+  "FE_worst_observed_point_gap_m": -5.734253555214784e-07,
+  "spatial_convergence_certified": false,
+  "temporal_convergence_certified": false,
+  "quantities": {
+    "full_gear_fe_instantaneous": {
+      "actual_phase_count": 1,
+      "peak_pressure_pa": 1069060798.1248924,
+      "P1_support_projected_area_m2": 2.4398602146926222e-06,
+      "unknown_projected_area_fraction": 0.0
+    },
+    "full_gear_fe_sampled_cycle_maximum": {
+      "actual_phase_count": 9,
+      "peak_pressure_pa": 2214849207.5201426,
+      "P1_support_projected_area_m2": 2.8115220922152782e-05,
+      "unknown_projected_area_fraction": 0.011339550242500152
+    },
+    "local_halfspace_instantaneous": {
+      "actual_phase_count": 1,
+      "peak_pressure_pa": 1079527467.4854345,
+      "P1_support_projected_area_m2": 2.1865143436331798e-06,
+      "unknown_projected_area_fraction": 0.0
+    },
+    "local_halfspace_sampled_cycle_maximum": {
+      "actual_phase_count": 129,
+      "peak_pressure_pa": 1083567197.7552304,
+      "P1_support_projected_area_m2": 4.5715976205004343e-05,
+      "unknown_projected_area_fraction": 0.0
+    }
+  },
+  "coordinate_units": "m",
+  "pressure_units": "Pa",
+  "physical_definition": "同一材料工作面的瞬时压力与离散采样逐点最大值；积分不表示同时合力",
+  "FE_cycle_note": "9相位印迹间的零压只描述实际采样，不推断未采样相位。"
+}

@@ -1,0 +1,31 @@
+name: 当前案例检查
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  examples:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONUTF8: "1"
+      PYTHONDONTWRITEBYTECODE: "1"
+      MPLBACKEND: Agg
+      MPLCONFIGDIR: ${{ github.workspace }}/output/mpl_cache
+      OPENBLAS_NUM_THREADS: "1"
+      OMP_NUM_THREADS: "1"
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.10"
+      - name: 安装案例依赖
+        run: python -m pip install ".[plots]" "scipy>=1.10,<2"
+      - name: 复算当前案例
+        run: |
+          python -B examples/run_examples.py --output output/ci_examples
+          python -B examples/run_spiral_workflow.py examples/straight_16_32_case.json --through strength --output output/ci_straight
+          python -B examples/run_spiral_workflow.py examples/spiral_17_47_case.json --reference examples/spiral_17_47_reference.json --through strength --output output/ci_spiral
+          python -B -m bevel_gear examples/b2_design.json --output output/ci_b2
+          python -B -m bevel_gear examples/agma_design.json --output output/ci_agma
+          python -B examples/validate_native_contact.py --output output/ci_native_contact.json
+          python -B -m unittest discover -s tests -v
