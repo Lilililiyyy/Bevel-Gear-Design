@@ -2,9 +2,9 @@
 
 [中文](README.md) · [English](README.en.md)
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776ab?logo=python&logoColor=white)](https://www.python.org/) [![License: AGPL-3.0-only](https://img.shields.io/badge/License-AGPL--3.0--only-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776ab?logo=python&logoColor=white)](https://www.python.org/) [![License: AGPL-3.0-only](https://img.shields.io/badge/License-AGPL--3.0--only-blue.svg)](LICENSE) [![Library Version](https://img.shields.io/badge/version-0.10.0-blue)](https://github.com/Lilililiyyy/Bevel-Gear-Design)
 
-Independent Python tools for zero-offset straight and spiral bevel gears: geometry, mesh forces, actual tooth surfaces and full-gear CAD, standard strength assessment, unloaded tooth contact analysis (TCA), and loaded tooth contact analysis (LTCA). Calculation functions can be integrated directly into other programs.
+Independent Python tools for zero-offset straight and spiral bevel gears: geometry, mesh forces, actual tooth surfaces and full-gear CAD, standard strength assessment, unloaded tooth contact analysis (TCA), and loaded tooth contact analysis (LTCA).
 
 ## Contents
 
