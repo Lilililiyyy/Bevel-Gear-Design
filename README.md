@@ -2,9 +2,9 @@
 
 [中文](README.md) · [English](README.en.md)
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-3776ab?logo=python&logoColor=white)](https://www.python.org/) [![License: AGPL-3.0-only](https://img.shields.io/badge/License-AGPL--3.0--only-blue.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.10%2B-3776ab?logo=python&logoColor=white)](https://www.python.org/) [![License: AGPL-3.0-only](https://img.shields.io/badge/License-AGPL--3.0--only-blue.svg)](LICENSE) [![Library Version](https://img.shields.io/badge/version-0.10.0-blue)](https://github.com/Lilililiyyy/Bevel-Gear-Design)
 
-零偏置直齿与弧齿锥齿轮的独立 Python 设计分析项目，提供几何、啮合力、实际齿面与整轮建模、标准强度、无载齿面接触分析（TCA）及承载齿面接触分析（LTCA）。计算函数可直接集成到其他程序。
+零偏置直齿与弧齿锥齿轮的独立 Python 设计分析项目，提供几何、啮合力、实际齿面与整轮建模、标准强度、无载齿面接触分析（TCA）及承载齿面接触分析（LTCA）。
 
 ## 目录
 
